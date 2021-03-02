@@ -27,6 +27,18 @@ cout<<"Hasil :" <<x-y<<endl;
 cout<<endl;
 }
 
+int perkalian(){
+int x,y;
+
+cout<<"Perkalian" <<endl;
+cout<<"masukkan angka pertama :";
+cin>>x;
+cout<<"masukkan angka kedua :";
+cin>>y;
+cout<<"Hasil :" <<x*y<<endl;
+cout<<endl;
+}
+
 int main(){
 cout<<endl;
 penjumlahan();
