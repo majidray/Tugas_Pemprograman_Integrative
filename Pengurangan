@@ -15,9 +15,22 @@ cout<<"Hasil :" <<x+y<<endl;
 cout<<endl;
 }
 
+int pengurangan(){
+int x,y;
+
+cout<<"Pengurangan" <<endl;
+cout<<"masukkan angka pertama :";
+cin>>x;
+cout<<"masukkan angka kedua :";
+cin>>y;
+cout<<"Hasil :" <<x-y<<endl;
+cout<<endl;
+}
+
 int main(){
 cout<<endl;
 penjumlahan();
+pengurangan();
 cout<<endl;
 system("pause");
 
