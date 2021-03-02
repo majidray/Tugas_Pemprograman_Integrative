@@ -1,0 +1,26 @@
+#include <iostream>
+#include <conio.h>
+
+using namespace std;
+
+int penjumlahan(){
+int x,y;
+
+cout<<"Penjumlahan" <<endl;
+cout<<"masukkan angka pertama :";
+cin>>x;
+cout<<"masukkan angka kedua :";
+cin>>y;
+cout<<"Hasil :" <<x+y<<endl;
+cout<<endl;
+}
+
+int main(){
+cout<<endl;
+penjumlahan();
+cout<<endl;
+system("pause");
+
+getch();
+return 0;
+}
