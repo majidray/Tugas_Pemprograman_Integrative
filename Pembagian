@@ -39,10 +39,25 @@ cout<<"Hasil :" <<x*y<<endl;
 cout<<endl;
 }
 
+int Pembagian(){
+int x,y;
+
+cout<<"Pembagian" <<endl;
+cout<<"masukkan angka pertama :";
+cin>>x;
+cout<<"masukkan angka kedua :";
+cin>>y;
+cout<<"Hasil :" <<x/y<<endl;
+cout<<endl;
+}
+
+
 int main(){
 cout<<endl;
 penjumlahan();
 pengurangan();
+perkalian();
+pembagian();
 cout<<endl;
 system("pause");
 
